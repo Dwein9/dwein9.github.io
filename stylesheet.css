@@ -1,0 +1,115 @@
+/*@import url('https://fonts.googleapis.com/css?family=Alike+Angular|Diplomata+SC');*/
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: url(bgpic.jpeg);
+    margin-top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #d4dcf6;
+    font-family: 'Bitter', serif;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  background-color: #d4dcf6;
+  transition: 1.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 5px;
+  /*text-transform: uppercase;*/
+  /*text-shadow: 0px 0px 10px;*/
+  /*border-radius: 10px;*/
+ }
+
+.btn-github:hover {
+  color: white;
+  background-position: bottom; /* change the direction of the change here */
+  background-image: url(git.svg); /* fallback */
+  /*background-image: linear-gradient(to top, #ffb500 20%, #d4dcf6 100%);*/
+}
+
+.btn-linkedin:hover {
+  color: white;
+  background-position: bottom; /* change the direction of the change here */
+  background-image: url(linkedin.svg); /* fallback */
+}
+
+.btn:hover {
+  color: white;
+  background-position: bottom; /* change the direction of the change here */
+  /*background-image: url(git.svg); /* fallback */*/
+  background-image: linear-gradient(to top, #ffb500 20%, #d4dcf6 100%);
+}
+
+.container {
+  /*width: 800px;*/
+  width: 100%;
+  padding-left: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center right;
+  margin-top: 40px;
+}
+
+.about {
+  margin-top: 30px;
+  width: 60%;
+  margin-left: 38%;
+  height: 400px;
+  font-weight: 400;
+  text-align: right;
+  color: #1C2841;
+}
+
+#title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.intro {
+  width: 100%;
+  font-size: 18px;
+  margin-right: 25px;
+
+}
+
+.info {
+  margin-right: 25px;
+  text-align: right center;
+  display: block;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.info ul {
+	list-style-type: none;
+}
+
+.info li {
+	float: left;
+  border-left: solid 1px #1C2841;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.info #first-nav-item{
+  border-left: none;
+}
+
+.info #first-btn-item{
+  border-left: none;
+}
+/*
+.info a:hover {
+  color: purple;
+}*/

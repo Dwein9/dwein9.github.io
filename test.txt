@@ -1,0 +1,73 @@
+/*@import url('https://fonts.googleapis.com/css?family=Alike+Angular|Diplomata+SC');*/
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background: url(bgpic.jpeg);
+    margin-top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(212, 220, 246);
+    font-family: 'Bitter', serif;
+}
+
+.full {
+  width: 800px;
+  padding-left: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center right;
+  margin-top: 40px;
+}
+
+.about {
+  margin-top: 30px;
+  float: right;
+  height: 400px;
+  font-weight: 400;
+  text-align: right;
+  color: #1C2841;
+}
+
+#title {
+  padding-left: 10px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.intro {
+  font-size: 18px;
+}
+
+.info {
+  margin-top: 25px;
+  text-align: right center;
+  display: block;
+  padding-top: 25px;
+  font-size: 18px;
+}
+
+.info ul {
+	list-style-type: none;
+}
+
+.info li {
+	float: left;
+  border-left: solid 1px #1C2841;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.info #first-nav-item{
+  border-left: none;
+}
+
+.info a:hover {
+  color: purple;
+}
