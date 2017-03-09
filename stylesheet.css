@@ -1,11 +1,11 @@
-/*@import url('https://fonts.googleapis.com/css?family=Alike+Angular|Diplomata+SC');*/
-@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Alike+Angular|Diplomata+SC');
+/*@import url('https://fonts.googleapis.com/css?family=Bitter');*/
 
 body {
     margin: 0;
     height: 100%;
     overflow: hidden;
-    background: url(bgpic.jpeg);
+    background: url(./img/bgpic.jpeg);
     margin-top: 0;
     background-size: cover;
     background-attachment: fixed;
@@ -17,11 +17,12 @@ body {
 
 .btn {
   flex: 1 1 auto;
+  width: 85px;
   margin: 10px;
   padding: 30px;
   text-align: center;
   background-color: #d4dcf6;
-  transition: 1.5s;
+  transition: 2.0s;
   background-size: 200% auto;
   box-shadow: 0 0 5px;
   /*text-transform: uppercase;*/
@@ -32,14 +33,26 @@ body {
 .btn-github:hover {
   color: white;
   background-position: bottom; /* change the direction of the change here */
-  background-image: url(git.svg); /* fallback */
+  background-image: url(./img/github.svg); /* fallback */
   /*background-image: linear-gradient(to top, #ffb500 20%, #d4dcf6 100%);*/
 }
 
 .btn-linkedin:hover {
   color: white;
   background-position: bottom; /* change the direction of the change here */
-  background-image: url(linkedin.svg); /* fallback */
+  background-image: url(./img/linkedin.svg); /* fallback */
+}
+
+.btn-gmail:hover {
+  color: white;
+  background-position: bottom; /* change the direction of the change here */
+  background-image: url(./img/gmail.svg); /* fallback */
+}
+
+.btn-medium:hover {
+  color: white;
+  background-position: bottom; /* change the direction of the change here */
+  background-image: url(./img/medium.svg); /* fallback */
 }
 
 .btn-1:hover {
@@ -102,14 +115,12 @@ body {
   padding-right: 5px;
 }
 
-.info #first-nav-item{
+.info #first-btn-item {
   border-left: none;
 }
 
-.info #first-btn-item{
-  border-left: none;
+.projects {
+  text-align: center;
+  height: 400px;
+  font-family: 'Diplomata SC', cursive;
 }
-/*
-.info a:hover {
-  color: purple;
-}*/
