@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter|Alike+Angular|Diplomata+SC');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Space+Mono|Alike+Angular|Diplomata+SC');
 /*@import url('https://fonts.googleapis.com/css?family=Bitter');*/
 
 body {
@@ -12,7 +12,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #d4dcf6;
-    font-family: 'Bitter', serif;
 }
 
 .btn {
@@ -23,7 +22,7 @@ body {
   text-align: center;
   background-color: #d4dcf6;
   transition: 2.0s;
-  background-size: 200% auto;
+  background-size: 150% auto;
   box-shadow: 0 0 5px;
   /*text-transform: uppercase;*/
   /*text-shadow: 0px 0px 10px;*/
@@ -31,41 +30,35 @@ body {
  }
 
 .btn-github:hover {
-  color: white;
-  background-position: bottom; /* change the direction of the change here */
-  background-image: url(./img/github.svg); /* fallback */
-  /*background-image: linear-gradient(to top, #ffb500 20%, #d4dcf6 100%);*/
+  /*background-position: right top;*/
+  background-position: right bottom; /* change the direction of the change here */
+  background-image: url(./img/github.svg);
 }
 
 .btn-linkedin:hover {
-  color: white;
-  background-position: bottom; /* change the direction of the change here */
-  background-image: url(./img/linkedin.svg); /* fallback */
+  background-position: bottom;
+  background-image: url(./img/linkedin.svg);
 }
 
 .btn-gmail:hover {
-  color: white;
-  background-position: bottom; /* change the direction of the change here */
-  background-image: url(./img/gmail.svg); /* fallback */
+  background-position: bottom;
+  background-image: url(./img/gmail.svg);
 }
 
 .btn-medium:hover {
-  color: white;
-  background-position: bottom; /* change the direction of the change here */
-  background-image: url(./img/medium.svg); /* fallback */
+  background-position: bottom;
+  background-image: url(./img/medium.svg);
 }
 
-.btn-1:hover {
-  color: white;
-  background-position: bottom; /* change the direction of the change here */
-  /*background-image: url(git.svg); /* fallback */*/
-  background-image: linear-gradient(to top, #ffb500 20%, #d4dcf6 100%);
+.btn-me:hover {
+  color: black;
+  background-position: right;
+  /*background-image: url(git.svg);*/
+  background-image: linear-gradient(to top, #ffb500 10%, #d4dcf6 100%);
 }
 
 .container {
-  /*width: 800px;*/
   width: 100%;
-  padding-left: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -74,6 +67,9 @@ body {
 }
 
 .about {
+  font-family: 'Alike Angular', serif;
+  /*font-family: 'Space Mono', monospace;*/
+  /*font-family: 'Alegreya', serif;*/
   margin-top: 30px;
   width: 60%;
   margin-left: 38%;
@@ -84,6 +80,8 @@ body {
 }
 
 #title {
+  font-family: 'Space Mono', monospace;
+  margin-left: 55px;
   text-align: left;
   font-weight: 700;
   font-size: 50px;
@@ -91,13 +89,15 @@ body {
 
 .intro {
   width: 100%;
-  font-size: 18px;
-  margin-right: 25px;
+}
 
+.text {
+  font-size: 18px;
+  margin-right: 50px;
 }
 
 .info {
-  margin-right: 25px;
+  margin-right: 45px;
   text-align: right center;
   display: block;
   padding-top: 25px;
@@ -122,5 +122,6 @@ body {
 .projects {
   text-align: center;
   height: 400px;
-  font-family: 'Diplomata SC', cursive;
+  color: hotpink;
+  font-family: 'Space Mono', monospace;
 }
