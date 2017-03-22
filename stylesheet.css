@@ -63,17 +63,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center right;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 .about {
   font-family: 'Alike Angular', serif;
   /*font-family: 'Space Mono', monospace;*/
   /*font-family: 'Alegreya', serif;*/
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   width: 60%;
   margin-left: 38%;
-  height: 400px;
+  height: 360px;
   font-weight: 400;
   text-align: right;
   color: #1C2841;
@@ -88,6 +88,7 @@ body {
 }
 
 .intro {
+  margin-top: 70px;
   width: 100%;
 }
 
@@ -124,4 +125,24 @@ body {
   height: 400px;
   color: hotpink;
   font-family: 'Space Mono', monospace;
+  /*margin-bottom: 60px;*/
+}
+
+#hi{
+  border-color: transparent;
+}
+
+.thumbnail:hover {
+  /*background-color:transparent;*/
+  /*border-style: solid;
+  border: 2px solid black;
+  border-radius: 1px;
+  margin: 15px;
+  padding: 5px;
+  transition: all .07s ease;*/
+  /*background: rgba(0,0,0,0.4);*/
+  transform: scale(1.1);
+  border-color: black;
+  box-shadow: 0 0 1rem #ffc600;
+  font-size: 3.5rem;
 }
