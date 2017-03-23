@@ -2,16 +2,32 @@
 /*@import url('https://fonts.googleapis.com/css?family=Bitter');*/
 
 body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-    background: url(./img/bgpic.jpeg);
-    margin-top: 0;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #d4dcf6;
+    /*background-size: cover;*/
+    width: 100px;
+    height: 100px;
+    background: #f79f79;
+    position: relative;
+    -webkit-animation: mymove 10s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s infinite;
+}
+/*
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    33%   {top: 0px; left: 0px; background: #f79f79;}
+    33% {top: 0px; left: 0px; background: #a18276;}
+    33%   {top: 0px; left: 0px; background: #f79f79;}
+    /*100% {top: 0px; left: 0px; background: #a18276;}*/
+}
+
+/*#f79f79, #f7d08a, #e3f09b, #87b6a7, #a18276);*/
+
+/* Standard syntax */
+@keyframes mymove {
+  0%   {background: #f79f79;}
+  20% {background: #f7d08a;}
+  40% {background: #f7d08a;}
+  60% {background: #f7d08a;}
+  100%   {background: #f79f79;}
 }
 
 .btn {
