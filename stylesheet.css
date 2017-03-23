@@ -120,27 +120,30 @@ body {
   border-left: none;
 }
 
+.row {
+  margin-top: 12px;
+}
+
 .projects {
   text-align: center;
   height: 400px;
   color: hotpink;
   font-family: 'Space Mono', monospace;
-  /*margin-bottom: 60px;*/
+  margin-bottom: 10px;
 }
 
-#hi{
-  border-color: transparent;
+/*.description {
+  background: url('https://blog.sqlauthority.com/i/b/ilovesamples.jpg');
+  background-size: cover;
+}*/
+
+#budget {
+  background-image: url(./img/budgetbutler.png);
+  background-size: cover;
 }
 
 .thumbnail:hover {
-  /*background-color:transparent;*/
-  /*border-style: solid;
-  border: 2px solid black;
-  border-radius: 1px;
-  margin: 15px;
-  padding: 5px;
-  transition: all .07s ease;*/
-  /*background: rgba(0,0,0,0.4);*/
+  cursor: pointer;
   transform: scale(1.1);
   border-color: black;
   box-shadow: 0 0 1rem #ffc600;
