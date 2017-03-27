@@ -1,31 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Space+Mono|Alike+Angular|Diplomata+SC');
-/*@import url('https://fonts.googleapis.com/css?family=Bitter');*/
 
 body {
-    /*background-size: cover;*/
-    /*width: 100px;
-    height: 100px;*/
-    /*background: #f79f79;
-    position: relative;*/
-    /*-webkit-animation: bgcolor-change 5s linear infinite;*/
-    animation: bgcolor-change 45s linear infinite;
+  animation: bgcolor-change 30s linear infinite;
 }
 
 @-webkit-keyframes bgcolor-change {
-    33%   {top: 0px; left: 0px; background: #f79f79;}
-    33% {top: 0px; left: 0px; background: #a18276;}
-    33%   {top: 0px; left: 0px; background: #f79f79;}
-    /*100% {top: 0px; left: 0px; background: #a18276;}*/
-}
-
-/*#f79f79, #f7d08a, #e3f09b, #87b6a7, #a18276);*/
-
-@keyframes bgcolor-change {
-  from   {background: #f79f79;}
+  from {background: #f79f79;}
   25% {background: #f7d08a;}
   50% {background: #f7d08a;}
   75% {background: #f7d08a;}
-  100%   {background: #f79f79;}
+  100% {background: #f79f79;}
+}
+
+@keyframes bgcolor-change {
+  from {background: #f79f79;}
+  25% {background: #f7d08a;}
+  50% {background: #f7d08a;}
+  75% {background: #f7d08a;}
+  100% {background: #f79f79;}
 }
 
 .btn {
@@ -35,12 +27,12 @@ body {
   padding: 30px;
   text-align: center;
   background-color: #d4dcf6;
-  transition: 2.0s;
   background-size: 150% auto;
+  transition: background-position 1s linear;
  }
 
 .btn-github:hover {
-  background-position: right bottom; /* change the direction of the change here */
+  background-position: bottom;
   background-image: url(./img/github.svg);
   background-color: transparent;
 }
@@ -64,18 +56,14 @@ body {
 }
 
 .btn-me:hover {
-  color: black;
   background-position: right;
-  text-decoration: underline;
-  /*background-image: url(git.svg);*/
   background-color: transparent
-  /*background-image: linear-gradient(to top, #ffb500 10%, transparent 100%);*/
 }
 
 .container {
   display: block;
   text-align: center right;
-  /*margin-top: 40px;*/
+  margin-top: 25px;
 }
 
 .about {
@@ -86,19 +74,25 @@ body {
   color: #1C2841;
 }
 
-#title {
+/*#title {
   font-family: 'Space Mono', monospace;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 45px;
   font-weight: 700;
-  font-size: 85px;
-}
+  font-size: 45px;
+  height: 10px;
+}*/
 
 .intro {
-  align-content: center;
+  font-size: 30px;
 }
 
 .text {
+  width: 100%;
+  font-family: 'Alike Angular', serif;
+  font-weight: 400;
+  text-align: right;
+  color: #1C2841;
   font-size: 24px;
 }
 
@@ -131,26 +125,56 @@ body {
 
 .projects {
   text-align: center;
-  height: 400px;
   color: hotpink;
   font-family: 'Space Mono', monospace;
-  margin-bottom: 10px;
 }
 
-/*.description {
-  background: url('https://blog.sqlauthority.com/i/b/ilovesamples.jpg');
-  background-size: cover;
-}*/
+.thumbnail {
+  margin-top: 20px;
+  height: 150px;
+}
 
 #budget {
   background-image: url(./img/budgetbutler.png);
   background-size: cover;
 }
 
+#rollout {
+  background-image: url(./img/rollout.png);
+  background-size: cover;
+}
+
+#cake {
+  /*background-image: url(./img/rollout.png);*/
+  background-size: cover;
+}
+
+.button-links {
+  display: none;
+}
+
+/*.description {
+  display: none;
+}*/
+
+.thumbnail:hover .button-links {
+  /*margin-top: 100px;*/
+  display: block;
+}
+
+.thumbnail:hover .description {
+  /*margin-top: 100px;*/
+  display: block;
+  opacity: .9;
+  background-color: white;
+}
+
 .thumbnail:hover {
+  background-color: black;
+  opacity: .1;
   cursor: pointer;
+  height: 200px;
   transform: scale(1.1);
   border-color: black;
-  box-shadow: 0 0 1rem #ffc600;
-  font-size: 3.5rem;
+  font-size: 24px;
 }

@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="250px" height="250px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1000 1000;"
+	 width="250px" height="275px" viewBox="0 0 1200 1200" style="enable-background:new 0 0 1000 1000;"
 	 xml:space="preserve">
 <g>
 	<path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
@@ -25,6 +25,8 @@
 		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
 		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
 		C438.536,184.851,428.728,148.168,409.132,114.573z"/>
+		<use xlink:href="#Capa_1" x="50" y="50"/>
+
 </g>
 <g>
 </g>
