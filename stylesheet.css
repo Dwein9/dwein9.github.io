@@ -5,20 +5,24 @@ body {
 }
 
 @-webkit-keyframes bgcolor-change {
-  from {background: #f79f79;}
-  25% {background: #f7d08a;}
-  50% {background: #f7d08a;}
-  75% {background: #f7d08a;}
-  100% {background: #f79f79;}
+  0% {background: #f7d08a;}
+  20% {background: #f79f79;}
+  40% {background: #C16C55;}
+  60% {background: #C16C55;}
+  80% {background: #f79f79;}
+  100% {background: #f7d08a;}
 }
 
 @keyframes bgcolor-change {
-  from {background: #f79f79;}
-  25% {background: #f7d08a;}
-  50% {background: #f7d08a;}
-  75% {background: #f7d08a;}
-  100% {background: #f79f79;}
+  0% {background: #f7d08a;}
+  20% {background: #f79f79;}
+  40% {background: #C16C55;}
+  60% {background: #C16C55;}
+  80% {background: #f79f79;}
+  100% {background: #f7d08a;}
 }
+
+
 
 .btn {
   flex: 1 1 auto;
@@ -32,31 +36,37 @@ body {
  }
 
 .btn-github:hover {
+  transform: scale(1.2);
   background-position: bottom;
-  background-image: url(./img/github.svg);
+  background-image: url(img/github.svg);
   background-color: transparent;
 }
 
 .btn-linkedin:hover {
+  transform: scale(1.2);
   background-position: bottom;
-  background-image: url(./img/linkedin.svg);
+  background-image: url(img/linkedin.svg);
   background-color: transparent;
 }
 
 .btn-gmail:hover {
+  transform: scale(1.2);
   background-position: bottom;
-  background-image: url(./img/gmail.svg);
+  background-image: url(img/gmail.svg);
   background-color: transparent;
 }
 
 .btn-medium:hover {
+  transform: scale(1.2);
   background-position: bottom;
-  background-image: url(./img/medium.svg);
+  background-image: url(img/medium.svg);
   background-color: transparent;
 }
 
 .btn-me:hover {
-  background-position: right;
+  transform: scale(1.2);
+  background-position: bottom;
+  background-image: url(img/check.svg);
   background-color: transparent
 }
 
@@ -73,15 +83,6 @@ body {
   text-align: right;
   color: #1C2841;
 }
-
-/*#title {
-  font-family: 'Space Mono', monospace;
-  text-align: left;
-  margin-left: 45px;
-  font-weight: 700;
-  font-size: 45px;
-  height: 10px;
-}*/
 
 .intro {
   font-size: 30px;
@@ -124,9 +125,8 @@ body {
 }
 
 .projects {
+  margin-top: 100px;
   text-align: center;
-  color: hotpink;
-  font-family: 'Space Mono', monospace;
 }
 
 .thumbnail {
@@ -135,46 +135,56 @@ body {
 }
 
 #budget {
-  background-image: url(./img/budgetbutler.png);
+  background-image: url(img/budgetbutler.png);
   background-size: cover;
 }
 
 #rollout {
-  background-image: url(./img/rollout.png);
+  background-image: url(img/rollout.png);
   background-size: cover;
 }
 
 #cake {
-  /*background-image: url(./img/rollout.png);*/
+  background-image: url(img/cake.png);
   background-size: cover;
 }
 
-.button-links {
+.btn-links {
+  display: none;
+  background-color: transparent;
+}
+
+.description {
   display: none;
 }
 
-/*.description {
-  display: none;
-}*/
+.thumbnail:hover .btn-links {
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  border-color: black;
+}
 
-.thumbnail:hover .button-links {
-  /*margin-top: 100px;*/
-  display: block;
+.btn-links:hover {
+  transform: scale(1.2);
+  border-color: black;
+  background-color: #d4dcf6;
 }
 
 .thumbnail:hover .description {
-  /*margin-top: 100px;*/
+  height: 183px;
+  margin-top: 10px;
+  color: #1C2841;
   display: block;
-  opacity: .9;
   background-color: white;
+  opacity: .8;
 }
 
 .thumbnail:hover {
-  background-color: black;
-  opacity: .1;
   cursor: pointer;
   height: 200px;
-  transform: scale(1.1);
+  transform: scale(1.15);
   border-color: black;
-  font-size: 24px;
+  font-size: 18px;
 }
