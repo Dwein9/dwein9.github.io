@@ -182,7 +182,6 @@ body {
 }
 
 .thumbnail:hover {
-  cursor: pointer;
   height: 200px;
   transform: scale(1.15);
   border-color: black;
