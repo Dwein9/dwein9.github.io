@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Space+Mono|Alike+Angular|Diplomata+SC');
 
 body {
-  animation: bgcolor-change 30s linear infinite;
+  animation: bgcolor-change 30s ease-in-out infinite alternate;
+  -moz-animation: bgcolor-change 30s ease-in-out infinite alternate;
+  -webkit-animation: bgcolor-change 30s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes bgcolor-change {
   0% {background: #f7d08a;}
-  20% {background: #f79f79;}
-  40% {background: #C16C55;}
-  60% {background: #C16C55;}
-  80% {background: #f79f79;}
-  100% {background: #f7d08a;}
+  50% {background: #f79f79;}
+  100% {background: #C16C55;}
+}
+
+@-moz-keyframes bgcolor-change {
+  0% {background: #f7d08a;}
+  50% {background: #f79f79;}
+  100% {background: #C16C55;}
 }
 
 @keyframes bgcolor-change {
   0% {background: #f7d08a;}
-  20% {background: #f79f79;}
-  40% {background: #C16C55;}
-  60% {background: #C16C55;}
-  80% {background: #f79f79;}
-  100% {background: #f7d08a;}
+  50% {background: #f79f79;}
+  100% {background: #C16C55;}
 }
-
-
 
 .btn {
   flex: 1 1 auto;
@@ -82,10 +82,6 @@ body {
   font-weight: 400;
   text-align: right;
   color: #1C2841;
-}
-
-.intro {
-  font-size: 30px;
 }
 
 .text {
@@ -186,4 +182,14 @@ body {
   transform: scale(1.15);
   border-color: black;
   font-size: 18px;
+}
+
+#test {
+  font-size: 30px;
+  animation: slide-left 3s;
+}
+
+@keyframes slide-left {
+  to { margin-left: 0%; width: 100%; }
+  from { margin-left: 100%; width: 300%; }
 }
