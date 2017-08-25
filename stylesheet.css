@@ -180,7 +180,7 @@ body {
   opacity: .8;
 }
 
-.thumbnail:hover {
+.thumbnail:hover, .thumbnail:active {
   height: 200px;
   transform: scale(1.15);
   border-color: black;
