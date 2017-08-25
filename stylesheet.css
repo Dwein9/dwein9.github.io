@@ -157,7 +157,7 @@ body {
   display: none;
 }
 
-.thumbnail:hover .btn-links {
+.thumbnail:hover .btn-links, .thumbnail:active .btn-links {
   margin-top: 30px;
   display: inline-block;
   text-align: center;
@@ -165,13 +165,13 @@ body {
   border-color: black;
 }
 
-.btn-links:hover {
+.btn-links:hover, .btn-links:active {
   transform: scale(1.2);
   border-color: black;
   background-color: #d4dcf6;
 }
 
-.thumbnail:hover .description {
+.thumbnail:hover .description, .thumbnail:active .description {
   height: 183px;
   margin-top: 10px;
   color: #1C2841;
