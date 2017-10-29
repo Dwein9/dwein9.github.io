@@ -186,13 +186,3 @@ body {
   border-color: black;
   font-size: 18px;
 }
-
-#test {
-  font-size: 30px;
-  animation: slide-in 3s;
-}
-
-@keyframes slide-in {
-  to { margin-left: -150px; width: 0%; }
-  from { margin-left: 100%; width: 100%; }
-}
