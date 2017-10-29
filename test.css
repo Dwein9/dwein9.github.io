@@ -1,0 +1,29 @@
+.alta {
+  background: rgb(139,186, 184);
+  color: rgb(255, 202, 0);
+  font-size: 50px;
+  width: 150px;
+  margin-left: 600px;
+  margin-top: 60px;
+}
+
+#alta-spin {
+  animation: alta-spin infinite 20s linear;
+  -moz-animation: alta-spin infinite 20s linear;
+  -webkit-animation: alta-spin infinite 20s linear;
+}
+
+@keyframes alta-spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+@-webkit-keyframes alta-spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+@-moz-@keyframes alta-spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
