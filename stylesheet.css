@@ -186,3 +186,7 @@ body {
   border-color: black;
   font-size: 18px;
 }
+
+.hide {
+  display: none;
+}
