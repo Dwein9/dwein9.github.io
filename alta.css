@@ -2,17 +2,6 @@ body {
     position: relative;
 }
 
-
-@media (min-width: @screen-sm-min) {
-  .about { height: auto; };
-  about2 { height: auto; };
-  about3 { height: auto; };
-  #intro { height: auto; };
-  #end { height: auto; };
-
-}
-
-
 .button {
   padding: 1em 1.5em;
   background-color: rgb(255, 202, 0);
@@ -90,14 +79,6 @@ body {
 	color: rgb(139,186, 184);
 	letter-spacing: 2px;
 	font-size: 40px;
-}
-
-#introAlta {
-    padding-right: 300px;
-}
-
-#introDW {
-  padding-left: 300px;
 }
 
 .about {
