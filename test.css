@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+body {
+    position: relative;
+
+}
+
+#intro {
+	background: url(./img/bg.jpeg) no-repeat center top;
+	padding-top: 450px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
+    -webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;
+
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+#intro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,#dc4225,#00FF7F);
+  opacity: .5;
+}
+
+#introDW p {
+  font-family: 'Istok Web', sans-serif;
+	color: black;
+	letter-spacing: 2px;
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+#introDev p {
+  font-family: 'Istok Web', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 80px;
+  font-weight: 400;
+}
