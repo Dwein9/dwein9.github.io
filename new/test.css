@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+body {
+    position: relative;
+}
+
+#intro {
+  background: linear-gradient(rgba(0,130,170,1),rgba(0,130,170,.2)), url('../img/bg.jpeg');
+  /* oldgradient: linear-gradient(to bottom right,#dc4225,#00FF7F);*/
+  opacity: .8;
+	text-align:center;
+	/*background-attachment: relative;*/
+	background-position: center center;
+	min-height: 650px;
+	width: 100vw;
+  height: 100vh;
+  white-space: nowrap;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    background-attachment: fixed;
+
+    /*-webkit-background-position: center;
+    -moz-background-position: center;
+    -o-background-position: center;
+    background-position: center;*/
+
+    -webkit-background-repeat: no-repeat;
+    -moz-background-repeat: no-repeat;
+    -o-background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+
+.introText {
+  font-family: 'Istok Web', sans-serif;
+	color: black;
+	font-size: 80px;
+	font-weight: bolder;
+  position: fixed;
+  padding-top: 95%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.introText2 {
+  font-family: 'Istok Web', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 80px;
+	font-weight: bolder;
+  position: fixed;
+  padding-top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 500px) {
+  .introText {
+    font-family: 'Istok Web', sans-serif;
+  	color: black;
+  	font-size: 47px;
+  	font-weight: bolder;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+  }
+
+  .introText2 {
+    font-family: 'Istok Web', sans-serif;
+  	color: white;
+  	letter-spacing: 2px;
+  	font-size: 37px;
+  	font-weight: bold;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1150px) {
+  .introText {
+    font-family: 'Istok Web', sans-serif;
+  	color: black;
+  	font-size: 70px;
+  	font-weight: bolder;
+    top: 20%;
+    left: 50%;
+    display: inline-block;
+  }
+
+  .introText2 {
+    font-family: 'Istok Web', sans-serif;
+  	color: white;
+  	letter-spacing: 2px;
+  	font-size: 60px;
+  	font-weight: bolder;
+    top: 22%;
+    left: 50%;
+    display: inline-block;
+  }
+}
