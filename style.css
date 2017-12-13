@@ -4,12 +4,39 @@ body {
     position: relative;
 }
 
+#header {
+  font-family: 'Istok Web', sans-serif;
+  align-content: center;
+  text-align: center;
+  padding-top: 25px;
+  float: right;
+}
+
+#header ul {
+	list-style-type: none;
+  display: inline-block;
+}
+
+#header li {
+	float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+#header a {
+	float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+
+
 #intro {
   background: linear-gradient(rgba(0,130,170,1),rgba(0,130,170,.2)), url('../img/bg.jpeg');
-  /* oldgradient: linear-gradient(to bottom right,#dc4225,#00FF7F);*/
   opacity: .8;
 	text-align:center;
-	/*background-attachment: relative;*/
 	background-position: center center;
 	min-height: 650px;
 	width: 100vw;
@@ -42,6 +69,19 @@ body {
     background-repeat: no-repeat;
 }
 
+#about {
+  font-family: 'Istok Web', sans-serif;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-weight: bold;
+  position: fixed;
+  padding-top: 5%;
+  text-align: left;
+  left: 25%;
+  display: inline-block;
+}
+
 
 .introText {
   font-family: 'Istok Web', sans-serif;
@@ -49,9 +89,10 @@ body {
 	font-size: 80px;
 	font-weight: bolder;
   position: fixed;
-  padding-top: 95%;
+  /*padding-top: 80%;*/
+  /*top: 60%;*/
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, 100%);
 }
 
 .introText2 {
@@ -61,9 +102,10 @@ body {
 	font-size: 80px;
 	font-weight: bolder;
   position: fixed;
-  padding-top: 95%;
+  /*padding-top: 85%;*/
+  /*top: 85%;*/
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,180%);
 }
 
 @media only screen and (max-width: 500px) {
