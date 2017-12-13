@@ -42,10 +42,10 @@ body {
 
 #header {
   font-family: 'Istok Web', sans-serif;
-  align-content: center;
   text-align: center;
   padding-top: 25px;
   float: right;
+  font-size: 25px;
 }
 
 #header ul {
@@ -94,7 +94,7 @@ body {
   /*padding-top: 80%;*/
   /*top: 60%;*/
   left: 50%;
-  transform: translate(-50%, 100%);
+  transform: translate(-50%, 250%);
 }
 
 .introText2 {
@@ -107,17 +107,17 @@ body {
   /*padding-top: 85%;*/
   /*top: 85%;*/
   left: 50%;
-  transform: translate(-50%,180%);
+  transform: translate(-50%, 320%);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 559px) {
   .introText {
     font-family: 'Istok Web', sans-serif;
   	color: black;
   	font-size: 47px;
   	font-weight: bolder;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     display: inline-block;
   }
@@ -129,17 +129,21 @@ body {
   	font-size: 37px;
   	font-weight: bold;
     position: fixed;
-    top: 55%;
+    top: 50%;
     left: 50%;
     display: inline-block;
   }
+
+  #header {
+    font-size: 10px;
+  }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 1150px) {
+@media only screen and (min-width: 559px) and (max-width: 1150px) {
   .introText {
     font-family: 'Istok Web', sans-serif;
   	color: black;
-  	font-size: 70px;
+  	font-size: 60px;
   	font-weight: bolder;
     top: 20%;
     left: 50%;
@@ -150,7 +154,7 @@ body {
     font-family: 'Istok Web', sans-serif;
   	color: white;
   	letter-spacing: 2px;
-  	font-size: 60px;
+  	font-size: 55px;
   	font-weight: bolder;
     top: 22%;
     left: 50%;
