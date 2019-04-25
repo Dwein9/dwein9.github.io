@@ -79,7 +79,6 @@ html {
 
 .img_wrap :hover {
   filter: none;
-  transform: scale(1.01);
   border-color: black;
   cursor: pointer;
 }
@@ -124,8 +123,8 @@ html {
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50vw;
-  min-height:50vh;
+  width: 60vw;
+  min-height:auto;
 }
 
 #image {
