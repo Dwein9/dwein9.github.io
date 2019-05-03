@@ -4,7 +4,7 @@ function imgSelect (el) {
 
 function openModal (data) {
   var modal = document.querySelector('#modal');
-  document.querySelector('#image').src = `./img/africa${data.key}.JPG`;
+  document.querySelector('#image').src = `./img/africa${data.key}.jpg`;
   // document.querySelector('#text').innerText = `${data.desc}`;
   modal.classList.toggle("closed");
 }
@@ -35,13 +35,13 @@ function closeModal() {
 function nextImage() {
   var next = parseInt(document.querySelector('#image').src.split('africa')[2].split('.')[0])+1
   if (next <= 31) {
-    document.querySelector('#image').src = `./img/africa${next}.JPG`;
+    document.querySelector('#image').src = `./img/africa${next}.jpg`;
   }
 }
 
 function prevImage() {
   var prev = parseInt(document.querySelector('#image').src.split('africa')[2].split('.')[0])-1
-  if (prev > 1){
-    document.querySelector('#image').src = `./img/africa${prev}.JPG`;
+  if (prev > 1) {
+    document.querySelector('#image').src = `./img/africa${prev}.jpg`;
   }
 }
