@@ -84,10 +84,8 @@ html {
 }
 
 .vertical {
-  width: 250px;
-  height: auto;
-  transform: rotate(90deg);
-  padding-bottom: .25em;
+  height: 60vh;
+  width: auto;
 }
 
 .vertical1 {

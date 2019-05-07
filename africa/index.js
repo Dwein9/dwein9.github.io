@@ -7,6 +7,8 @@ function openModal (data) {
   document.querySelector('#image').src = `./img/africa${data.key}.jpg`;
   // document.querySelector('#text').innerText = `${data.desc}`;
   modal.classList.toggle("closed");
+
+
 }
 
 function getKeyCode(event) {
@@ -34,7 +36,7 @@ function closeModal() {
 
 function nextImage() {
   var next = parseInt(document.querySelector('#image').src.split('africa')[2].split('.')[0])+1
-  if (next <= 31) {
+  if (next <= 35) {
     document.querySelector('#image').src = `./img/africa${next}.jpg`;
   }
 }
