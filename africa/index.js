@@ -43,7 +43,7 @@ function nextImage() {
 
 function prevImage() {
   var prev = parseInt(document.querySelector('#image').src.split('africa')[2].split('.')[0])-1
-  if (prev > 1) {
+  if (prev >= 1) {
     document.querySelector('#image').src = `./img/africa${prev}.jpg`;
   }
 }
